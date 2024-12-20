@@ -1,0 +1,86 @@
+.log_reg_body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #D6CFB4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8D0B41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #4d0623;
+  }
+  
+  .switch {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .switch a {
+    color: #8D0B41;
+    text-decoration: none;
+  }
+  
+  .switch a:hover {
+    text-decoration: underline;
+  }
+
+  form select:focus {
+    border-color: #666; /* Darker border on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+form select {
+    width: 100%; /* Full width with padding */
+    padding: 8px 10px; /* Padding inside the input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box; /* Include padding in the width */
+    transition: border-color 0.3s ease;
+}

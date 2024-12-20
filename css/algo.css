@@ -1,0 +1,17 @@
+#the_header_logo {
+    width: 10%;
+    margin-left: 5px;
+}
+#the_logo {
+    height: 50%;
+}
+
+.left {
+    float: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    float: right;
+}

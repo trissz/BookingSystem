@@ -1,0 +1,242 @@
+.details_body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    padding-top: 2vw;
+}
+
+#listingDetails {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+#listingDetails h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.image_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#listingDetails img {
+    width: 700px;
+    height: 500px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#listingDetails p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+#listingDetails strong {
+    font-weight: bold;
+}
+
+#listingDetails .error-message {
+    color: red;
+    font-weight: bold;
+}
+
+#ratingSection {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+#ratingSection h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#ratingSection #stars {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#ratingSection #stars span {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s ease;
+}
+
+#ratingSection #stars span:hover {
+    color: gold;
+}
+
+#ratingSection textarea {
+    width: 97%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+#ratingSection button {
+    background-color: #8d0b41;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#ratingSection button:hover {
+    background-color: #a80d52;
+}
+
+#ratingSection #reviewMessage {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+#bookingForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+#bookingForm h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#bookingForm form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+#bookingForm label {
+    font-size: 1rem;
+    color: #34495e;
+}
+
+#bookingForm input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#bookingForm button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#bookingForm button:hover {
+    background-color: #2980b9;
+}
+
+#bookingForm #bookingMessage {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: red;
+}
+
+#review_container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.apartmentReviewListElement {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.apartmentReviewListElement p {
+    margin: 5px 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.apartmentReviewListElement p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.apartmentReviewListElement p:nth-child(2) {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.apartmentReviewListElement p:nth-child(3) {
+    font-style: italic;
+    color: #555;
+}
+
+.apartmentReviewListElement:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #listingDetails {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    #listingDetails h1 {
+        font-size: 1.5rem;
+    }
+
+    #listingDetails img {
+        max-width: 100%;
+    }
+
+    #listingDetails p {
+        font-size: 0.9rem;
+    }
+
+    #ratingSection, #bookingForm {
+        width: 100%;
+    }
+}

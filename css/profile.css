@@ -1,0 +1,75 @@
+.profile_body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.host_body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_container {
+        background: #D6CFB4;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 50%;
+}
+
+#bookingsList {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.booking_list_element {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking_info,
+.booking_dates {
+  margin-bottom: 10px;
+}
+
+.info_label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.info_value {
+  color: #555;
+  font-size: 1.1em;
+}
+
+.booking_dates .info_value {
+  color: #007BFF;  /* Külön kiemelhetjük az időszakot */
+}
+
+.booking_list_element:hover {
+  background-color: #f0f0f0; 
+}
+
+.booking_list_element:last-child {
+  margin-bottom: 0;
+}
